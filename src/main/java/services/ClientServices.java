@@ -1,6 +1,8 @@
 package services;
 
 import java.util.List;
+import java.util.Optional;
+
 import entites.Client;
 
 public interface ClientServices {
@@ -8,10 +10,9 @@ public interface ClientServices {
 
 	    List<Client> getAllClients();
 
-	    Client getClientById(Long id);
+	 
+	    Client getClientByNom(String nom);
 
-	    Client updateClient(Long id, Client client);
-
-	    void deleteClient(Long id);
-
+	  
+	 
 }
