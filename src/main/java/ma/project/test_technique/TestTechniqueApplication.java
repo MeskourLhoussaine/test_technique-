@@ -13,7 +13,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
     "servicesImpl"
 })
 @EntityScan(basePackages = {"entites"})
-@EnableJpaRepositories(basePackages = {"repository"}) // ← très important
+@EnableJpaRepositories(basePackages = {"repository"}) 
 public class TestTechniqueApplication {
 
     public static void main(String[] args) {
